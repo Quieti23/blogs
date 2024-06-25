@@ -1,3 +1,12 @@
+代理使用：
+git config --global http.proxy http://127.0.0.1:10809
+取消代理：
+git config --global --unset http.proxy
+查看代理
+git config --global https.proxy
+删除代理
+npm config delete proxy
+
 取消当前拉取：
 PS D:\project\dataexchange-center> git reflog
 975b643 (HEAD -> develop) HEAD@{0}: commit: Revert "bug: http连接器ssl证书修改不生效"
